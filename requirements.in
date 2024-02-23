@@ -1,0 +1,15 @@
+huggingface_hub
+python-dotenv
+transformers
+torch
+html2text
+pyyaml
+jsonschema
+flask
+pytest
+pytest-dotenv
+lazy-object-proxy
+openai
+lark
+black
+isort
