@@ -45,8 +45,6 @@ def parse_to_json(
         parsed_raw = MD_START.sub("", parsed_raw)
         parsed_raw = MD_END.sub("", parsed_raw)
 
-        print(parsed_raw)
-
         try:
             parsed = yaml.safe_load(parsed_raw)
             jsonschema.validate(parsed, schema)
